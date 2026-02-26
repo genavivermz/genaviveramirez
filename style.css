@@ -8,6 +8,23 @@ body {
   max-width: 1800px;
 }
 
+@media screen and (max-width: 1050px) {
+  .svg-column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .svg-column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  .triple-column {
+    width: 100%;
+  }
+}
+
 h1 {
   font-size: 4.0em;
   margin-bottom: 0.2em;
@@ -58,5 +75,43 @@ img {
   height: auto;
   border-radius: 12px;
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 16px 12px;
+  }
+
+  h1 {
+    font-size: 2.4em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin: 16px 0 8px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .section-item-title {
+    font-size: 1.1em;
+    margin: 14px 0 2px;
+  }
+
+  .section-separator {
+    margin: 24px 0 24px;
+    font-size: 1.1em;
+  }
+
+  .contact-row {
+    gap: 16px;
+  }
+
+  .contact-icon {
+    max-width: 32px;
+  }
 }
 
