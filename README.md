@@ -1,4 +1,4 @@
-# genaviveramirez
+# 🦄
 Hey! I'm Genavive, an incoming college freshman
 - I'm hoping to major in CS + Economics
 - I love '90s Madonna and Mariah Carey
