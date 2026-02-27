@@ -8,3 +8,7 @@ Hey! I'm Genavive, an incoming college freshman
 # Interests
 - Web development
 - Social impact projects
+
+# Contact / Socials
+- genavivers08@gmail.com
+- @bobigos on IG
