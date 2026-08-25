@@ -1,8 +1,7 @@
 # ཐི༏ཋྀ
-Welcome to my GitHub :-)
-- I'm interested in all things CS – from software to hardware – finance, and literature
-- I'm currently working on my business WingedFounders.com and reaching level 100 on BedWars <3
-- I love contemporary and renaissance art, writing, and ariana grande ꕤ｡˚⋆
+- Studying CS @CC
+- I love tinkering with PCB design, writing, and mentorship.
+- Founder of Winged Founders & Fortune Cookie Foundation
 
 # mailbox
 everuhz@gmail.com
