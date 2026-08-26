@@ -1,6 +1,6 @@
 # ཐིཋྀ
 - CS Student
-- I love tinkering with PCB design, writing, and mentorship.
+- I love writing, mentorship, and tinkering with PCB design.
 - Founder of Winged Founders & Fortune Cookie Foundation
 
 # mailbox
