@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 
+<!--
+    Hi! Feel free to use my code for your own website <3
+    Don't forget to connect, start something, or ask something!
+-->
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genavive Ramirez</title>
 
-  <link rel="icon" type="image/x-icon" href="images/bee.jpg">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/bee.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="nav">
-    <span class="nav-kaomoji">꒰ᐢ. .ᐢ꒱</span>
-    <div class="nav-links">
-      <a href="#intro">about me</a>
-      <a href="#experience">experience</a>
-      <a href="#projects">projects</a>
-      <a href="#awards">awards</a>
-      <a href="#socials">socials</a>
-    </div>
-  </nav>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="room">
+    <header class="site-header">
+      <nav class="nav">
+        <a href="#intro">About Me</a>
+        <span aria-hidden="true">·</span>
+        <a href="#experience">Experience</a>
+        <span aria-hidden="true">·</span>
+        <a href="#projects">Projects</a>
+        <span class="nav-dot-desktop" aria-hidden="true">·</span>
+        <span class="nav-break" aria-hidden="true"></span>
+        <a href="#awards">Awards</a>
+        <span aria-hidden="true">·</span>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="kicker"> est. in my room ₊˚⊹⋆</p>
+      <h1>Genavive Ramirez</h1>
+    </header>
 
-  <section id="intro">
-    <div class="section-inner">
-      <div class="section-content">
-        <h3>Genavive Ramirez</h3>
-        <p>Hey! I'm Eve, a college freshman from SoCal interested in studying Science, Technology, and Society. I love GIFs, tinkering with PCB design, listening to Miguel, and strong coffee. </p>
-        <p>After growing up balancing 50+ hours a week of family responsibilities with my passion for technology, I decided to create WingedFounders.com: a free, personalized roadmap platform for bedroom founders turning constraints into social impact projects. It's part of <i>est. in my room ˖᯽ ݁˖</i>, the brand I'm currently building with my nonprofit, the Fortune Cookie Foundation, out of a senior year that shook my sense of self and taught me you can lead real change from exactly where you are.</p>
-        <p>Let's partner; contact me @ <b>everuhz@gmail.com!</b></p>
+    <section id="intro" class="panel split">
+      <div class="split-copy">
+        <p>Hi :-) I'm Eve, a college freshman from SoCal studying computer science. I love mentorship, music, and tinkering with PCB design.</p>
+        <p>I grew up balancing family responsibilities with my passion for social impact, and now I'm building Winged Founders to help other young changemakers bypass infrastructural barriers to scaling their efforts. In addition to WF, I'm currently scaling the Fortune Cookie Foundation, advocating for a modern take on school mental health policies to create a supportive environment for students.</p>
+        <p>Need guidance? Want to partner? Contact me @ <a href="mailto:everuhz@gmail.com"><b>everuhz@gmail.com</b></a></p>
       </div>
-      <img class="intro-gif" src="images/shrekky.gif" alt="Shrek GIF" width="320" height="180">
-    </div>
-  </section>
+      <figure class="sticker">
+        <img src="images/laptop-girl.gif" alt="Animated cartoon of a girl with orange hair lying on her bed, looking at a laptop.">
+      </figure>
+    </section>
 
-  <p class="section-separator">⊹ ࣪ ˖</p>
+    <p class="section-separator" aria-hidden="true">˖᯽ ݁˖</p>
 
-  <section id="experience">
-    <div class="section-content">
-      <h2>Current Work (*ᴗ͈ˬᴗ͈)</h2>
+    <section id="experience" class="panel split split-reverse">
+      <figure class="frame tilted-left">
+        <img src="images/secret-rendezvous.jpg" alt="Pierre-Charles Comte painting of a woman in a medieval gown looking out a castle window, holding daisies.">
+      </figure>
+      <div class="split-copy">
+      <h2>Current Work</h2>
       <h3 class="section-item-title">Founder of <a href="https://wingedfounders.com" target="_blank" rel="noopener">Winged Founders</a></h3>
       <p><i>2024-Present</i> · Building a free, personalized roadmap platform for bedroom founders facing adversity. Match founders with milestones, eligible grants/fellowships/awards, and visibility for existing work. Pace roadmaps around each founder's real-life constraints and deliver 1:1, mentor-style guidance in a doc.</p>
 
       <h3 class="section-item-title">Founder of <a href="#" target="_blank" rel="noopener">Fortune Cookie Foundation</a></h3>
-      <p><i>2026-Present</i> · Launching a global non-profit organization that provides micro-grants, recognition, and mental health advocacy for young changemakers navigating personal hardships. Combining systemic policymaking with funding support to uplift resilient youth making a difference.</p>
+      <p><i>2026-Present</i> · Launching a global non-profit organization that recognizes and supports students navigating personal hardships and mental health challenges.</p>
+      </div>
+    </section>
 
-      <h3 class="section-item-title">Author of (Coming soon!)</h3>
-      <p><i>May 2026-Present</i> · A novel in progress, written in the spirit of chasing that first yes.</p>
+    <p class="section-separator" aria-hidden="true">˖᯽ ݁˖</p>
 
-    <h3 class="section-item-title">Founder of est. in my room ˖᯽ ݁˖</h3>
-    <p><i>July 2026-Present</i> · In My Room started as a mindset — that you don't need a glamorous beginning to lead change, just a room and a reason.</p>
-        
-    </div>
-  </section>
-
-  <p class="section-separator">⊹ ࣪ ˖</p>
-
-  <section id="past-work">
-    <div class="section-content">
-      <h2>Past Work ˶ᵔ ᵕ ᵔ˶</h2>
+    <section id="past" class="panel split">
+      <div class="split-copy">
+      <h2>Past Work</h2>
 
       <h3 class="section-item-title">Machine Learning Researcher, Algoverse AI</h3>
-      <p><i>2025</i> · Accepted into the virtual Algoverse research program in the medical applications group (of 4). Researched enhanced image cropping to improve neurodegenerative disease diagnostics. Analyzed large language model and machine learning research papers, adding my own nuances and applying varying research findings to different papers. Received return offer!</p>
+      <p><i>2025</i> · Accepted into the virtual Algoverse research program in the medical applications group (of 4). Researched enhanced image cropping to improve neurodegenerative disease diagnostics. Analyzed large language model and machine learning research papers, adding my own nuances and applying varying research findings to different papers. Received return offer.</p>
 
       <h3 class="section-item-title">Founder of STEM by Step</h3>
       <p><i>2024-2026</i> · Developed youth-first platform dedicated to showcase innovations to real-world problems. Organized and led outreach to 30+ established for-youth organizations to gather participants for essay competition. Created STEM career prep content to 150,000+ viewers.</p>
@@ -76,67 +86,66 @@
       <p><i>Sep 2025-Feb 2026</i> · Shelve 150+ nonfiction, fiction, young adult books per shift using the Dewey Decimal and alphabetical systems. Help visitors find books and navigate online resources. Teach fellow/new volunteers shelving systems. Optimize existing shelf layouts, fine sorting.</p>
 
       <h3 class="section-item-title">Founder and CEO of <a href="https://healthyheartsforbu.wixsite.com/healthy-hearts-2b" target="_blank" rel="noopener">Healthy Hearts for Busy Bees (2H2B)</a></h3>
-      <p><i>2025-Present</i> · 2H2B is a nonprofit organization that campaigns for convenient heart-healthy practices and support for communities most vulnerable to heart disease. Through my work as Founder and CEO, I have established 6 global youth-led chapters from the Philippines to California, and have delivered over 200 heart health pamphlets to community centers.</p>
-    </div>
-  </section>
+      <p><i>2025-2026</i> · 2H2B is a nonprofit organization that campaigns for convenient heart-healthy practices and support for communities most vulnerable to heart disease. Through my work as Founder and CEO, I have established 6 global youth-led chapters from the Philippines to California, and have delivered over 200 heart health pamphlets to community centers.</p>
+      </div>
+      <figure class="frame tilted-right">
+        <img src="images/woman-reading.jpg" alt="Oil painting of a woman in a silver gown reclining on a sofa, reading, with a dog at her side.">
+      </figure>
+    </section>
 
-  <section id="projects">
-    <div class="section-content">
-      <h2>Projects 𐀔 </h2>
+    <p class="section-separator" aria-hidden="true">˖᯽ ݁˖</p>
 
+    <section id="projects" class="panel split split-reverse">
+      <figure class="poster">
+        <img src="images/shrekky.gif" alt="Animated clip of Shrek holding onions in a sunflower field, with the subtitle Ogres are like onions.">
+      </figure>
+      <div class="split-copy">
+      <h2>Projects</h2>
       <h3 class="section-item-title"><a href="https://github.com/genavivermz/cute-pcb-keychain" target="_blank" rel="noopener">PCB Keychain</a></h3>
       <p><i>June 2026</i> · My first KiCad project, a custom PCB keychain with kaomoji designs; used LEDs, resistors, and USB components.</p>
 
       <h3 class="section-item-title"><a href="https://github.com/genavivermz/nyan-cat-pcb" target="_blank" rel="noopener">NyanCat PCB</a></h3>
       <p><i>June 2026</i> · My second KiCad build, now experimenting with designing a PCB of a different shape (in this case, the NyanCat). Used LEDs, resistors, microcontroller, and battery cell.</p>
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <section id="awards">
-    <div class="section-content">
-      <h2>Awards & Recognition  ᕙ(⇀‸↼‶)ᕗ</h2>
+    <p class="section-separator" aria-hidden="true">˖᯽ ݁˖</p>
+
+    <section id="awards" class="panel">
+      <h2>Awards &amp; Recognition</h2>
       <h3 class="section-item-title">National Merit Scholarship Letter of Commendation</h3>
       <p><i>2025</i> · Recognizes high-scoring PSAT/NMSQT test takers (top 2-3% of PSAT takers); scored above the national qualifying Commended level for the PSAT/NMSQT.</p>
 
       <h3 class="section-item-title">Principal's Honor Roll (5x)</h3>
-      <p><i>2024-2026</i>· Obtained 4.0 and above Semester GPA (introduced to my school during my junior year, qualified every semester 9-12).</p>
+      <p><i>2024-2026</i> · Obtained 4.0 and above Semester GPA (introduced to my school during my junior year, qualified every semester 9-12).</p>
 
       <h3 class="section-item-title">College Board National Hispanic Recognition Program</h3>
-      <p><i>2025</i>· Awardees of the College Board National Recognition Program demonstrate academic success in 10th and 11th grade.</p>
+      <p><i>2025</i> · Awardees of the College Board National Recognition Program demonstrate academic success in 10th and 11th grade.</p>
 
       <h3 class="section-item-title">Honor Court</h3>
-      <p><i>2025-2026</i>· Awarded to students (of my high school)ranked in the top 10% of their class based on academic performance.</p>
+      <p><i>2025-2026</i> · Awarded to students (of my high school) ranked in the top 10% of their class based on academic performance.</p>
 
       <h3 class="section-item-title">AP Scholar with Honor</h3>
-      <p><i>2025</i>· Granted to students who receive an average score of at least 3.25 on all AP exams taken, and scores of 3 or higher on four or more of these exams.</p>
+      <p><i>2025</i> · Granted to students who receive an average score of at least 3.25 on all AP exams taken, and scores of 3 or higher on four or more of these exams.</p>
 
       <h3 class="section-item-title">California Scholarship Federation Member</h3>
-      <p><i>2024-2026</i>· Nonprofit organization that recognizes the academic achievement of highs school students living in the state of California.</p>
+      <p><i>2024-2026</i> · Nonprofit organization that recognizes the academic achievement of high school students living in the state of California.</p>
 
       <h3 class="section-item-title">California State Seal of Biliteracy</h3>
-      <p><i>2026</i>· Award for high school graduates demonstrating proficiency in English and one or more additional languages (in my case Spanish), indicated by a gold seal on their diploma and transcript.</p>
+      <p><i>2026</i> · Award for high school graduates demonstrating proficiency in English and one or more additional languages (in my case Spanish), indicated by a gold seal on their diploma and transcript.</p>
 
       <h3 class="section-item-title">Golden State Seal Merit Diploma</h3>
-      <p><i>2026</i>· California award for graduating public school students who demonstrate high achievement in core and elective subjects.</p>
-    </div>
-  </section>
+      <p><i>2026</i> · California award for graduating public school students who demonstrate high achievement in core and elective subjects.</p>
+    </section>
 
-  <p class="section-separator"></p>
-
-  <section id="socials">
-    <div class="section-content">
-      <h2>Socials</h2>
-      <div class="socials-links">
-        <a href="https://www.linkedin.com/in/genavive-ramirez" target="_blank" rel="noopener">
-          <img src="images/free-linkedin-icon-112-thumb.png" alt="LinkedIn profile for Genavive Ramirez" class="social-icon">
-        </a>
-        <a href="https://github.com/genavivermz" target="_blank" rel="noopener">
-          <img src="images/github-icon copy.png" alt="GitHub profile for genavivermz" class="social-icon">
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <script src="cursor-trail.js"></script>
+    <section id="contact" class="panel contact">
+      <h2>Contact me</h2>
+      <p class="contact-links">
+        <a href="https://www.linkedin.com/in/genavive-ramirez" target="_blank" rel="noopener">LinkedIn</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/genavivermz" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+  </div>
 </body>
 </html>
