@@ -269,6 +269,29 @@ a:hover {
   letter-spacing: 0.08em;
 }
 
+.cursor-trail {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1;
+  color: var(--gold-deep);
+  user-select: none;
+  animation: trail-fade 0.7s ease-out forwards;
+}
+
+@keyframes trail-fade {
+  from {
+    opacity: 0.9;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-18px) scale(0.55);
+  }
+}
+
 @media screen and (max-width: 800px) {
   .room {
     margin: 0;
